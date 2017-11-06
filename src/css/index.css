@@ -50,3 +50,8 @@ textarea.hacking-output{
 .hidden{
     display:none;
 }
+.credit{
+    position: absolute;
+    bottom:0px;
+    left:10px;
+}
