@@ -1,0 +1,8 @@
+request:
+    url: https://github.com
+    headers:
+        User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9765.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.123 Safari/537.36
+        # put your headers here
+# this is where you put the regular expression to check if the
+# script injection worked or not
+regexp: github

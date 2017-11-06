@@ -1,0 +1,52 @@
+body{
+    padding:5px;
+}
+textarea, pre{
+    margin:5px;
+    border-radius: 5px;
+    border:1px solid #E8E8E8;
+    resize: none;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.hacking-input{
+    width:100%;
+    height:30vh;
+}
+.hacking-output{
+    width:100%;
+    height:60vh;
+    margin:10px;
+    text-align:left;
+}
+textarea.hacking-output{
+    height:90%;
+}
+.hacking-submit{
+    position: relative;
+    left:0px;
+    border-radius: 10px;
+    background:#54d637;
+    border:1px solid #3b9627;
+    padding:5px;
+    padding-left:12px;
+    padding-right:12px;
+    color:white;
+    font-size:16px;
+}
+.injection-success{
+    background:rgba(51, 255, 51,0.3);
+}
+.injection-failure{
+    background:rgba(255, 0, 0,0.3);
+}
+.injection-null{
+    /* nothing for now */
+}
+.hidden{
+    display:none;
+}
